@@ -20,7 +20,7 @@ variable "aws_secret_key" {}
 variable "private_key_path" {}
 variable "key_name" {}
 variable "region" {
-  default = "us-east-1"
+  default = "eu-west-2"
 }
 
 variable "network_address_space" {
@@ -39,7 +39,7 @@ variable "dns_zone_name" {}
 variable "dns_resource_group" {}
 
 variable "instance_count" {
-  default = 2
+  default = 3
 }
 
 variable "subnet_count" {
